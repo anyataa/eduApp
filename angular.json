@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "eduapp"
+    }
+  },
+  "defaultProject": "eduapp",
+  "cli": {
+    "analytics": "45d19966-a040-4a83-a279-1b59af71c597"
+  }
 }
