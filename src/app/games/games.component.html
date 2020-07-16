@@ -1,20 +1,20 @@
 
 <div class="gallery">
     <div class="img-container">
-        <img src="assets/images/p4.jpg" alt="">
-        <h1>Lessons</h1>
+        <img src="assets/images/games3.jpg" alt="">
+        <h1>Games</h1>
     </div>
 </div>
 <br>
 <h2 style="text-align: center;">
-PENGECORAN LOGAM
+GAMES FOR CASTING LESSON
 </h2>
 
 <div class="lesson" style="margin-left: 1rem; margin-right: 1rem;">
     <div *ngFor="let material of materials; index as i"
     class="img-small" id="container" (click)='click(i)'>
         <img id="image" src={{material[1]}} alt="">
-        <div class="caption">
+        <div class="caption"  >
             <p id="text">{{material[0]}}</p>
         </div>  
     </div>
